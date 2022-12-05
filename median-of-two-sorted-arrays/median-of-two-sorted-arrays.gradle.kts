@@ -3,7 +3,9 @@ plugins {
 }
 
 application {
-    mainClass.set("com.github.protosha.medianoftwosortedarrays.MainKt")
+    mainClass.set("com.github.protosha.medianoftwosortedarrays.MedianOfTwoSortedArrays")
 }
 
-dependencies {}
+dependencies {
+    implementation(project(":utils"))
+}

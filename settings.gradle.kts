@@ -8,6 +8,7 @@
  */
 
 include("median-of-two-sorted-arrays")
+include("utils")
 
 rootProject.name = "leetcode-kotlin"
 rootProject.children.forEach { it.buildFileName = "${it.name}.gradle.kts" }
