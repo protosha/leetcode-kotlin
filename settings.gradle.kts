@@ -8,6 +8,7 @@
  */
 
 include("median-of-two-sorted-arrays")
+include("skeleton")
 include("utils")
 
 rootProject.name = "leetcode-kotlin"
