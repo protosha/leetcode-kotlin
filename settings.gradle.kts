@@ -8,8 +8,9 @@
  */
 
 include("median-of-two-sorted-arrays")
-include("sudoku-solver")
 include("skeleton")
+include("sudoku-solver")
+include("trapping-rain-water")
 include("utils")
 
 rootProject.name = "leetcode-kotlin"
