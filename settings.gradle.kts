@@ -10,6 +10,7 @@
 include("median-of-two-sorted-arrays")
 include("skeleton")
 include("sudoku-solver")
+include("text-justification")
 include("trapping-rain-water")
 include("utils")
 
