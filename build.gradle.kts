@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     kotlin("jvm") version "1.9.0"
 }
@@ -18,7 +16,7 @@ subprojects {
         implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.4")
     }
 
-    tasks.withType<KotlinCompile> {
+    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
         kotlinOptions.jvmTarget = "17"
     }
 }
