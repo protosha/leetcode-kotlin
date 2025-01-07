@@ -8,6 +8,7 @@
  */
 
 include("median-of-two-sorted-arrays")
+include("merge-sorted-array")
 include("skeleton")
 include("sudoku-solver")
 include("text-justification")
