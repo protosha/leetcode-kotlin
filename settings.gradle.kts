@@ -9,6 +9,9 @@
 
 include("median-of-two-sorted-arrays")
 include("merge-sorted-array")
+include("remove-duplicates-from-sorted-array")
+include("remove-duplicates-from-sorted-array-2")
+include("remove-element")
 include("skeleton")
 include("sudoku-solver")
 include("text-justification")
