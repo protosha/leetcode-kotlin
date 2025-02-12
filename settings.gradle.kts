@@ -7,6 +7,7 @@
  * in the user manual at https://docs.gradle.org/7.6/userguide/multi_project_builds.html
  */
 
+include("majority-element")
 include("median-of-two-sorted-arrays")
 include("merge-sorted-array")
 include("remove-duplicates-from-sorted-array")
