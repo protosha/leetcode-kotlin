@@ -19,4 +19,10 @@ subprojects {
             jvmTarget.set(JvmTarget.JVM_21)
         }
     }
+
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(21))
+        }
+    }
 }

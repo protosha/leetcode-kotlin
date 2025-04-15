@@ -7,6 +7,7 @@
  * in the user manual at https://docs.gradle.org/7.6/userguide/multi_project_builds.html
  */
 
+include("h-index")
 include("insert-delete-getrandom-o1")
 include("majority-element")
 include("median-of-two-sorted-arrays")
