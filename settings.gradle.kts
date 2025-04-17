@@ -7,6 +7,7 @@
  * in the user manual at https://docs.gradle.org/7.6/userguide/multi_project_builds.html
  */
 
+include("candy")
 include("h-index")
 include("insert-delete-getrandom-o1")
 include("majority-element")
@@ -15,6 +16,7 @@ include("merge-sorted-array")
 include("remove-duplicates-from-sorted-array")
 include("remove-duplicates-from-sorted-array-2")
 include("remove-element")
+include("rotate-image")
 include("skeleton")
 include("sudoku-solver")
 include("text-justification")
