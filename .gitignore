@@ -10,3 +10,6 @@ build
 
 # Ignore macOS files
 **/.DS_Store
+
+# Kotlin Gradle plugin project-specific data
+.kotlin
