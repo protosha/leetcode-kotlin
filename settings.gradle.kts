@@ -10,6 +10,7 @@
 include("candy")
 include("h-index")
 include("insert-delete-getrandom-o1")
+include("letter-case-permutation")
 include("lru-cache")
 include("majority-element")
 include("median-of-two-sorted-arrays")
