@@ -1,8 +1,6 @@
 package com.github.protosha.lettercasepermutation
 
 import java.util.LinkedList
-import java.util.Stack
-import javax.xml.stream.events.Characters
 import kotlin.math.pow
 
 object LetterCasePermutation {
