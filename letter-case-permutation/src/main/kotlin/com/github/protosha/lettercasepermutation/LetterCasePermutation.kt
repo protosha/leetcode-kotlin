@@ -55,16 +55,15 @@ class StackSolution {
             if (operation.charAt <= operation.value.lastIndex) {
                 val value = operation.value
                 if (value[operation.charAt].isLetter()) {
-                    val value1 = value.copyOf()
-                    value1[operation.charAt] = Character.toUpperCase(value[operation.charAt])
-                    val value2 = value.copyOf()
-                    value2[operation.charAt] = Character.toLowerCase(value[operation.charAt])
+                    val valuePermutated = value.copyOf()
+                    // 0010 0000 - 6th bit flip in ASCII allows for toggling the case via XOR
+                    valuePermutated[operation.charAt] = Char(value[operation.charAt].code xor 32)
                     if (operation.charAt < operation.value.lastIndex) {
-                        stack.add(StackOperation(value1, operation.charAt + 1))
-                        stack.add(StackOperation(value2, operation.charAt + 1))
+                        stack.add(StackOperation(valuePermutated, operation.charAt + 1))
+                        stack.add(StackOperation(value, operation.charAt + 1))
                     } else {
-                        perms.add(String(value1))
-                        perms.add(String(value2))
+                        perms.add(String(valuePermutated))
+                        perms.add(String(value))
                     }
                 } else {
                     if (operation.charAt < operation.value.lastIndex) {
