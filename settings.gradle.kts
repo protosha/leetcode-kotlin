@@ -8,6 +8,7 @@
  */
 
 include("candy")
+include("construct-binary-tree-from-pre-and-in-traversal")
 include("h-index")
 include("insert-delete-getrandom-o1")
 include("invert-binary-tree")
